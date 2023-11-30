@@ -1,0 +1,29 @@
+
+
+body
+{
+    background: #23253A;
+}
+
+section .cards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+section .cards .card
+{
+    width: 351px;
+    height: 320px;
+    background: #2B2E41;
+    box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
+    padding: 33px;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+section .cards .card:hover
+{
+    background-color: #23253A;
+}
+
+
